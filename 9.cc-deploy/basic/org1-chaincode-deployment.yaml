@@ -18,7 +18,7 @@ spec:
         app: chaincode-basic-org1
     spec:
       containers:
-        - image: adityajoshi12/basic-cc-hlf:1.0
+        - image: denfle/basic-hlf-cc:1.0
           imagePullPolicy: Always
           name: chaincode-basic-org1
           env:
